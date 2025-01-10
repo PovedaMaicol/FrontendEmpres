@@ -1,0 +1,29 @@
+.info_usuario {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-grid {
+margin-top: 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+
+
+.container_form {
+    z-index: 5;
+    position: absolute;
+    background-color: white;
+    width: 95%;
+    height: 50vh;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
